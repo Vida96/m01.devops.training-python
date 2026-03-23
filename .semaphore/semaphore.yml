@@ -33,6 +33,7 @@ blocks:
             - make lint
   - name: "\U0001F9EA Test Suite"
     dependencies:
+      - "\U0001F50D Code Quality"
       - "\U0001F6E0️ Setup and Cache "
     task:
       env_vars: []
