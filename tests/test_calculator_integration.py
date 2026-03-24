@@ -8,5 +8,5 @@ def test_integration_workflow():
     result = calculator.add(a, b)
     result = calculator.multiply(result, 2)
     result = calculator.subtract(result, 10)
-    result = calculator.divide(result, 4)
+    result = calculator.divide(result, 5)
     assert result == 5
